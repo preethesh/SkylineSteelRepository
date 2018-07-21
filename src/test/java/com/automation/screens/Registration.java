@@ -17,7 +17,7 @@ public class Registration {
 
 
     public static void isRegistrationScreenDisplayed() {
-        Assert.assertTrue(waitUntilPageLoads(Labels.RegistrationScreenPath), "Registration screen is not displayed");
+        Assert.assertTrue(waitUntilPageLoads(Labels.RegistrationScreenPath), "Registration screen is not displayed testing");
 
     }
 
