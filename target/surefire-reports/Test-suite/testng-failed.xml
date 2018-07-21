@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test(failed)" verbose="0">
+    <classes>
+      <class name="com.automation.tests.EnterDetailsInRegistrationScreen">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="enterDetails"/>
+        </methods>
+      </class> <!-- com.automation.tests.EnterDetailsInRegistrationScreen -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Test-suite] -->
