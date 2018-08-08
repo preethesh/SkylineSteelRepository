@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestSuite" time="71.929" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="TestSuite" time="551.278" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="SkylnesteelContinousIntegration"/>
@@ -13,7 +13,7 @@
     <property name="os.name" value="Mac OS X"/>
     <property name="TERM_PROGRAM" value="Apple_Terminal"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="TERM_SESSION_ID" value="82D555F4-FE5C-4509-928B-03180FC05CFD"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="FinalSkylinesteelautomation"/>
@@ -24,8 +24,8 @@
     <property name="SECURITYSESSIONID" value="186a6"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="SkylnesteelContinousIntegration"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SkylnesteelContinousIntegration/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SkylnesteelContinousIntegration/8/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
     <property name="TMPDIR" value="/var/folders/ln/2g0sb_v957d3jcvbzqhwn38m0000gp/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
     <property name="java.version" value="1.8.0_181"/>
@@ -36,7 +36,7 @@
     <property name="TERM" value="xterm-256color"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="5"/>
+    <property name="BUILD_ID" value="8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -50,11 +50,12 @@
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.12.3"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SkylnesteelContinousIntegration/5/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SkylnesteelContinousIntegration/8/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.181-b13"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="300f10de15c8d10991ccce00ceab4cbe172b6add"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SkylnesteelContinousIntegration/display/redirect"/>
     <property name="SHLVL" value="1"/>
     <property name="_" value="/usr/bin/java"/>
@@ -69,7 +70,7 @@
     <property name="HOME" value="/Users/joe"/>
     <property name="POM_GROUPID" value="com.automation.steel"/>
     <property name="user.home" value="/Users/joe"/>
-    <property name="BUILD_TAG" value="jenkins-SkylnesteelContinousIntegration-5"/>
+    <property name="BUILD_TAG" value="jenkins-SkylnesteelContinousIntegration-8"/>
     <property name="JENKINS_SERVER_COOKIE" value="f6b5cb1cf14b175e"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
@@ -83,7 +84,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/Users/joe/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
     <property name="java.class.path" value="/Users/joe/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12-alpha-1.jar:/Users/joe/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.5.2.jar:/Users/joe/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/joe/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/joe/.jenkins/war/WEB-INF/lib/remoting-3.23.jar /Users/joe/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /Users/joe/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 49808"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/joe/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/joe/.jenkins/war/WEB-INF/lib/remoting-3.23.jar /Users/joe/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /Users/joe/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 53842"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -93,7 +94,7 @@
     <property name="java.io.tmpdir" value="/var/folders/ln/2g0sb_v957d3jcvbzqhwn38m0000gp/T/"/>
     <property name="HUDSON_HOME" value="/Users/joe/.jenkins"/>
     <property name="PATH+MAVEN" value="/Users/joe/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SkylnesteelContinousIntegration/5/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SkylnesteelContinousIntegration/8/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="OLDPWD" value="/Users/joe/documents"/>
     <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.14jW9mP9Bu/Listeners"/>
@@ -109,16 +110,43 @@
 "/>
     <property name="MAVEN_HOME" value="/Users/joe/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
+    <property name="BUILD_NUMBER" value="8"/>
     <property name="ANDROID_HOME" value="/Users/joe/Library/Android/sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="TERM_PROGRAM_VERSION" value="388"/>
+    <property name="GIT_BRANCH" value="origin/develop"/>
+    <property name="GIT_COMMIT" value="027b6502e9201de0293a94fd408362e8de9d4f80"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="maven3.interceptor" value="/Users/joe/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar"/>
     <property name="WORKSPACE" value="/Users/joe/Documents/FinalSkylineSteelAutomation"/>
     <property name="maven3.interceptor.common" value="/Users/joe/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="USER" value="joe"/>
+    <property name="GIT_URL" value="https://github.com/preethesh/SkylineSteelRepository.git"/>
   </properties>
-  <testcase classname="com.automation.tests.EnterDetailsInRegistrationScreen" name="enterDetails" time="23.664"/>
+  <testcase classname="com.automation.tests.EnterDetailsInRegistrationScreen" name="enterDetails" time="500.476">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //*[@text=&apos;Registration&apos;] (tried for 500 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@text=&apos;Registration&apos;] (tried for 500 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.automation.BaseClass.waitUntilPageLoads(BaseClass.java:70)
+	at com.automation.screens.Registration.isRegistrationScreenDisplayed(Registration.java:20)
+	at com.automation.tests.EnterDetailsInRegistrationScreen.enterDetails(EnterDetailsInRegistrationScreen.java:12)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@text=&apos;Registration&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.0&apos;, revision: &apos;924c4067df&apos;, time: &apos;2017-11-30T11:20:39.408Z&apos;
+System info: host: &apos;Atimis-MacBook-Pro.local&apos;, ip: &apos;192.168.1.124&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 37 more
+</failure>
+    <system-err>Jul 22, 2018 12:45:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
 </testsuite>
